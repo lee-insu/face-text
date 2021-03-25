@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta propery="og:type" content="website" />
+    <meta property="og:title" content="표정으로 관상을 알아봐요!" />
+    <meta property="og:description" content="남들에게 보여지는 나의 이미지가 궁금 하신가요? 오늘까지 무료로 테스트 할 수 있는 표정 테스트 " />
+    <meta property="og:image" content="../static/img/lemon.jpg" />
+    <meta property="og:url" content="https://elated-ritchie-809934.netlify.app/" />
+    <meta property="og:site_name" content="표정 관상테스트" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="../static/img/lemon.jpg" />
+    <link rel="apple-touch-icon" href="../static/img/lemon.jpg" />
+    <link rel="short icon" type="image/x-icon" href="../static/img/lemon.jpg" />
+    <title>표정 관상테스트</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/f1def33959.js" crossorigin="anonymous"></script>
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script data-ad-client="ca-pub-9594488126161061" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="https://ads-partners.coupang.com/g.js"></script>
+    <meta name="google-site-verification" content="d09FSRKovgcN0aAuSEauOJoinfw4SFYGWG4FFCZR-to" />
+    <meta name="naver-site-verification" content="99c21e8e08f3bc0dd763ed55e57234f3ddfa2994" />
+</head>
+<body>
+    <header>
+       <div class="inner">
+           <div class="header-container">
+            <div class="header-logo"><a href="/"><img src="../static/img/logo.png" alt="logo" class="logo"></a></div> 
+    </header>
+
+    <section>
+        <div class="inner">
+        <div class="face-upload">
+            <div class="face-upload-wrap">
+            <input id="input-image" type="file" onchange = "readURL(this)" accept="image/png, image/jpeg"/>
+             <img class = "upload-hand-image" src="../static/img/hand.jpg" alt="image" onclick="document.querySelector('#input-image').click()">
+             <div class="face-text">표정으로 여러분의 관상을 알아볼게요<br>&nbsp;위를 클릭해 사진을 업로드 해주세요 <br><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(사진 수집x)</div>
+            </div>
+            <img id="face-image"class="blah" src="#" alt="">
+        </div>
+        <div id="loading">
+            <span class="loading-message">지금 표정을 분석하고 있습니다..</span>
+        </div>
+        <div class="image-result">
+        <div class="push-result"></div>
+        <div id="label-container"></div>
+        <div class="share-container">
+        <a href="javascript:void(0);" id="share-facebook" ><img src="../static/img/facebook.png" alt="facebook"></a>
+        <a href="javascript:void(0);" id="share-kakao"><img src="../static/img/kakao.png" alt="kakao"></a>
+        <a href="javascript:void(0);" id="share-url"><img src="../static/img/url.png" alt="url"></a>
+        </div>
+        <div class="reload-btn">
+        <button class="reload" onclick="location.replace('index.html')"> 다시 시도</button>
+        </div>
+        </div>
+        </div>
+    </section>
+   <section class="inner ads">
+    <ins class="kakao_ad_area" style="display:none;" 
+ data-ad-unit    = "DAN-yjHPIySavXSYHtew" 
+ data-ad-width   = "320" 
+ data-ad-height  = "100"></ins> 
+   </section>
+    <section>
+        <div class="inner">
+            <div class="content-container">
+                <div class="content-title">지금 내 표정이 이래</div>
+                <div class="content-list">
+                    <ul class="emotion-list">
+                        <li class="emotion-card">
+                            <a href="../emotion_happy.html">
+                            <div class="emotion-image"><img src="../static/img/lemon.jpg" alt="happy"></div>
+                            <div class="emotion-desc">행복한 레몬</div>
+                            </a>
+                            <li class="emotion-card">
+                                <a href="../emotion_timid.html">
+                                <div class="emotion-image"><img src="../static/img/grape.jpg" alt=""></div>
+                                <div class="emotion-desc">소심한 포도</div>
+                                </a>
+                            </li>
+                            <li class="emotion-card">
+                                <a href="../emotion_anger.html">
+                                <div class="emotion-image"><img src="../static/img/strawberry.jpg" alt=""></div>
+                                <div class="emotion-desc">짜증난 딸기</div>
+                                </a>
+                            </li>
+                            <li class="emotion-card">
+                                <a href="../emotion_sadness.html">
+                                <div class="emotion-image"><img src="../static/img/blueberry.jpg" alt=""></div>
+                                <div class="emotion-desc">무표정 블루베리</div>
+                                </a>
+                            </li>
+                            <li class="emotion-card">
+                                <a href="../emotion_surprise.html">
+                                <div class="emotion-image"><img src="../static/img/orange.jpg" alt=""></div>
+                                <div class="emotion-desc">놀란 오렌지</div>
+                                </a>
+                            </li>
+                            <li class="emotion-card">
+                                <a href="../emotion_disgust.html">
+                                <div class="emotion-image"><img src="../static/img/kiwi.jpg" alt=""></div>
+                                <div class="emotion-desc">까칠한 키위</div>
+                                </a>
+                            </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="inner ads">
+        <script>
+            new PartnersCoupang.G({"id":454222,"template":"carousel","trackingCode":"AF2711028","width":"280","height":"200"});
+        </script>
+ 
+    </section>
+    <section class = "inner" style="text-align: center;">
+        <h3>
+        참고
+        <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" style="color: #a5a5a5;">조코딩님 유튜브</a>
+    </h3>
+    </section>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script>
+        $('#loading').hide();
+        $('.image-result').hide();
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+            let reader = new FileReader();
+            reader.onload = function (e) {
+            $('.face-upload-wrap').hide();
+            $('.blah').attr('src', e.target.result);
+            $('#loading').show();
+            console.log(input.files[0])
+            };
+            reader.readAsDataURL(input.files[0]);
+            init().then(function() {
+                predict(); 
+                $('#loading').hide();
+                $('.image-result').show();
+            });
+            }
+            }
+
+    </script>
+    <script>
+    Kakao.init('bf0f1e48c0bc08ac27bffb8adca92d11'); 
+
+    const shareKakao = document.querySelector('#share-kakao');
+
+    shareKakao.addEventListener('click',function(e) {
+        e.preventDefault();
+
+        Kakao.Link.sendCustom({
+            templateId: 49196
+        });
+    });
+    
+    const shareFacebook = document.querySelector('#share-facebook');
+
+    shareFacebook.addEventListener('click',function() {
+        window.open('http://www.facebook.com/sharer.php?u=https://elated-ritchie-809934.netlify.app/');
+    });
+ 
+    const shareUrl = document.querySelector('#share-url');
+
+
+    shareUrl.addEventListener('click', function() {
+        let url ="https://elated-ritchie-809934.netlify.app/";
+        let textarea = document.createElement("textarea");
+        document.body.appendChild(textarea);
+        textarea.value = url;
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+        alert("주소가 복사 되었습니다")
+    
+    });
+    
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script src="../js/emotion.js"></script>
+</body>
+</html>

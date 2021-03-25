@@ -1,0 +1,4 @@
+User-Agent:*
+Allow: /
+
+Sitemap: https://elated-ritchie-809934.netlify.app/sitemap.xml
