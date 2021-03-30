@@ -143,6 +143,19 @@ section {width: 100%;}
     left:24rem;
 
 }   
+.face-text-center {
+    font-family: 'InfinitySans-RegularA1';
+    font-size: 26px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    color: #707070;
+    position: relative;
+    bottom: 3rem;
+    left:24rem;
+}
 .upload-hand-image {
     width: 371px;
     height: 400px;
@@ -695,6 +708,8 @@ section {width: 100%;}
         
     
     }   
+
+    
 
     #loading {
         margin-top: 0;
