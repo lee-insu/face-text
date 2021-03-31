@@ -139,23 +139,11 @@ section {width: 100%;}
     letter-spacing: normal;
     color: #707070;
     position: absolute;
-    bottom: 4rem;
-    left:24rem;
+    bottom: 4em;
+    left:14em;
 
 }   
-.face-text-center {
-    font-family: 'InfinitySans-RegularA1';
-    font-size: 26px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.19;
-    letter-spacing: normal;
-    color: #707070;
-    position: relative;
-    bottom: 3rem;
-    left:24rem;
-}
+
 .upload-hand-image {
     width: 371px;
     height: 400px;
@@ -396,12 +384,27 @@ section {width: 100%;}
     color:#585858;
 }
 
+.be-face-image {
+    width: 100%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+
+.be-face-image > img {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 427px;
+    height: auto;
+    border-radius: 2rem;
+}
+
 .push-result {
     width: 100%;
     margin-top: 2rem;
 }
 
-.push-result > :nth-child(1) {
+.push-result > :nth-child(2) {
     width: 100%;
     text-align: center;
     font-family: 'InfinitySans-BoldA1';
@@ -409,7 +412,7 @@ section {width: 100%;}
     font-weight: normal;
 }
 
-.push-result > :nth-child(2) {
+.push-result > :nth-child(3) {
     width: 100%;
     text-align: center;
     margin-top: 0.5rem;
@@ -419,7 +422,7 @@ section {width: 100%;}
     color: rgb(167, 167, 167);
 }
 
-.push-result > :nth-child(3) {
+.push-result > :nth-child(4) {
     width: 60%;
     margin: 0 auto;
     text-align: center;
@@ -460,7 +463,7 @@ section {width: 100%;}
     margin: 0 auto;
     
 }
-.기쁨-bar {
+.최준-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -469,7 +472,7 @@ section {width: 100%;}
   background-color: #FAFF5C;
 }
 
-.까칠-bar {
+.차진석-bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -478,7 +481,7 @@ section {width: 100%;}
     background-color: #99FF85;
   }
 
-  .놀람-bar {
+  .방재호-bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -487,7 +490,7 @@ section {width: 100%;}
     background-color: #FF99FF;
   }
 
-  .분노-bar {
+  .임플란트키드-bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -496,7 +499,7 @@ section {width: 100%;}
     background-color: #FF7070;
   }
 
-  .소심-bar {
+  .이호창-bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -505,17 +508,7 @@ section {width: 100%;}
     background-color: #9785FF;
   }
 
-  .슬픔-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 3px;
-    background-color: #5C9AFF;
-  }
-
-
-.기쁨-box {
+.최준-box {
     position: absolute;
     top: 0;
     left: 3rem;
@@ -525,7 +518,7 @@ section {width: 100%;}
     background-color:#fdffb6
 }
 
-.까칠-box {
+.차진석-box {
     position: absolute;
     top: 0;
     left: 3rem;
@@ -535,7 +528,7 @@ section {width: 100%;}
     background-color:#caffbf
 }
 
-.놀람-box {
+.방재호-box {
     position: absolute;
     top: 0;
     left: 3rem;
@@ -545,7 +538,7 @@ section {width: 100%;}
     background-color:#ffc6ff
 }
 
-.분노-box {
+.임플란트키드-box {
     position: absolute;
     top: 0;
     left: 3rem;
@@ -555,7 +548,7 @@ section {width: 100%;}
     background-color:#ffadad
 }
 
-.소심-box {
+.이호창-box {
     position: absolute;
     top: 0;
     left: 3rem;
@@ -565,15 +558,6 @@ section {width: 100%;}
     background-color:#bdb2ff
 }
 
-.슬픔-box {
-    position: absolute;
-    top: 0;
-    left: 3rem;
-    height: 2rem;
-    border-radius: 5px;
-    width: 60%;
-    background-color:#a0c4ff
-}
 
 .percent-text {
     margin: 0;
@@ -693,6 +677,11 @@ section {width: 100%;}
         top: 2rem;
     }
 
+    .be-face-image {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .face-text {
         font-size: 1.1rem;
         font-weight: normal;
@@ -719,17 +708,17 @@ section {width: 100%;}
         font-size: 1.2rem;
     }
 
-    .push-result > :nth-child(1) {
+    .push-result > :nth-child(2) {
         font-size: 2rem;
     }
 
-    .push-result > :nth-child(2) {
+    .push-result > :nth-child(3) {
         font-size: 1.5rem;
     }
 
-    .push-result > :nth-child(3) {
+    .push-result > :nth-child(4) {
         font-size: 0.9rem;
-        width: 90%;
+        width: 100%;
     }
 
     
@@ -784,55 +773,48 @@ section {width: 100%;}
         
 
     }
-        .기쁨-bar {
+        .최준-bar {
             height: 2rem;
           }
           
-          .까칠-bar {
+          .차진석-bar {
               height: 2rem;
             }
           
-            .놀람-bar {
+            .방재호-bar {
               height: 2rem;
 
             }
           
-            .분노-bar {
+            .임플란트키드-bar {
               height: 2rem;
             }
           
-            .소심-bar {
-              height: 2rem;
-            }
-          
-            .슬픔-bar {
+            .이호창-bar {
               height: 2rem;
             }
           
           
-          .기쁨-box {
+          .최준-box {
               height: 2rem;
           }
           
-          .까칠-box {
+          .차진석-box {
               height: 2rem;
           }
           
-          .놀람-box {
+          .방재호-box {
               height: 2rem;
           }
           
-          .분노-box {
+          .임플란트키드-box {
               height: 2rem;
           }
           
-          .소심-box {
+          .이호창-box {
               height: 2rem;
           }
-          
-          .슬픔-box {
-              height: 2rem;
-          }    
+        
     
         .content-list {
             margin-left: 0.5rem;
