@@ -227,12 +227,14 @@ section {width: 100%;}
     margin-left: 138px;
       }
 
+      
 .content-list {
     margin-top: 35px;
     width: 100%;
     position: relative;
    
 }
+
 
 .emotion-list {
     display: flex;
@@ -241,6 +243,14 @@ section {width: 100%;}
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.fake-ads {
+    width: 100%;
+    margin: 1em auto;
+    text-align: center;
+    
+}
+
 
 .emotion-card {margin: 0 31px 28px 0; transition: 0.4s;}
 
